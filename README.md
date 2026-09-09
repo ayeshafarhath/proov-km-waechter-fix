@@ -1,3 +1,28 @@
+# The Legacy Fix — ProoV x IBM Bob | Fixed by Ayesha Farhath
+
+## 🏆 Certification
+✅ **ProoV Certificate** - AI-Assisted Code Modernization with IBM (05 Sep 2026) - `PRV-2026-C23DBDFE`
+
+✅ **IBM SkillsBuild** - IBM Bobathon: The Legacy Fix - Modernize a Real Car-Company Service (04 Sep 2026)
+
+
+🔗 Project: https://projectstudy.in/explore/experience-legacy-fix
+
+📁 My Repo: Fixed 11/11 tests passing
+
+
+## 🔧 What I Fixed
+- **Fixed hidden bug:** Car at 14,900/15,000 km reported 0% wear (nearly due but let through) - Now correctly flags as due
+- **Modernized 2013-era legacy code:** Cleaned `config_loader.py`, `fleet_utils.py`, `log_util.py` - removed dead code, dated style
+- **All 11/11 tests passing** - verified with `python verify.py` and `pytest`
+- **Added breakdown-risk data analysis** (`fleet_history.csv` - 120 cars): Found gap since last service + driving hardness predicts breakdown, not mileage/age
+
+
+## 📝 NOTES
+See `NOTES.md` for what my AI agent got wrong that I caught and corrected.
+
+---
+
 # The Legacy Fix — a ProoV Guided Project, powered by IBM Bob
 
 This repo is the starting point of [The Legacy Fix](https://projectstudy.in/explore/experience-legacy-fix), a ProoV
